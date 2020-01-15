@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_error_title">Entrada no válida</string>
+    <string name="required_field_error_msg">%s es un campo obligatorio</string>
+    <string name="valid_email">Introduce una dirección de correo electrónico válida</string>
+    <string name="ok">Vale</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listing_action_button_bar"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/add_photo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/listing_action_button_bar"
+        android:drawableTop="@drawable/ic_image_camera_alt_light"
+        android:paddingBottom="5dp"
+        android:text="@string/add_photo"
+        android:textSize="12sp"
+        tools:text="very very long title very long"/>
+
+    <Button
+        android:id="@+id/write_review_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/listing_action_button_bar"
+        android:drawableTop="@drawable/ic_image_edit"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="@string/write_review"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/check_in_business_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/listing_action_button_bar"
+        android:drawableTop="@drawable/ic_contribute_check_in_light"
+        android:paddingBottom="5dp"
+        android:text="@string/checkin"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/checked_in_business_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/listing_action_button_bar"
+        android:drawableTop="@drawable/ic_checked_in_light"
+        android:paddingBottom="5dp"
+        android:text="@string/checkedin"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bookmark_listing_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/listing_action_button_bar"
+        android:drawableTop="@drawable/ic_action_action_bookmark_light"
+        android:paddingBottom="5dp"
+        android:text="@string/bookmark"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/unbookmark_listing_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/listing_action_button_bar"
+        android:drawableTop="@drawable/ic_action_bookmarked_light"
+        android:paddingBottom="5dp"
+        android:text="@string/bookmarked"
+        android:textSize="12sp"
+        android:visibility="gone" />
+</LinearLayout>

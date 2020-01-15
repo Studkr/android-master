@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_error_title">Введены неверные данные</string>
+    <string name="required_field_error_msg">%s является обязательным для заполнения полем</string>
+    <string name="valid_email">Введите, пожалуйста, правильный адрес электронной почты</string>
+    <string name="ok">ОК</string>
+</resources>

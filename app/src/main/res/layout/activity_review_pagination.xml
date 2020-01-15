@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activity_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.INT.apps.GpsspecialDevelopment.activities.ReviewPaginationActivity">
+
+    <include layout="@layout/top_bar" />
+
+    <FrameLayout
+        android:id="@+id/review_pagination"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

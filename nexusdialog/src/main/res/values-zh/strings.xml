@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_error_title">無效的輸入</string>
+    <string name="required_field_error_msg">%s 是必填欄位</string>
+    <string name="valid_email">請輸入有效的電子信箱</string>
+    <string name="ok">好</string>
+</resources>

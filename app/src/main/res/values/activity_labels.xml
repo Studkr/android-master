@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_main" translatable="false">GPS Special</string>
+    <string name="title_activity_register" translatable="false">Register</string>
+    <string name="title_activity_review_add" translatable="false">ReviewAddActivity</string>
+    <string name="title_activity_listing_image_add" translatable="false">ListingImageAddActivity</string>
+    <string name="title_activity_listing_extra_information" translatable="false">ListingExtraInformationActivity</string>
+    <string name="title_activity_deal_information" translatable="false">DealInformationActivity</string>
+    <string name="title_activity_buy_deal" translatable="false">BuyDealActivity</string>
+    <string name="title_activity_review_view_pager" translatable="false">ReviewViewPagerActivity</string>
+    <string name="title_activity_blank" translatable="false">BlankActivity</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="title_activity_listing_asset_view" translatable="false">ListingAssetViewActivity</string>
+    <string name="title_activity_review_pagination" translatable="false">ReviewPaginationActivity</string>
+    <string name="title_activity_listing_index" translatable="false">ListingIndexActivity</string>
+    <string name="title_activity_listing_view" translatable="false">ListingViewActivity</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="title_activity_home" translatable="false">HomeActivity</string>
+    <string name="title_activity_category_hierarchy" translatable="false">CategoryHierarchy</string>
+    <string name="title_activity_listing_search_box" translatable="false">ListingSearchBoxActivity</string>
+    <string name="title_activity_user_favorites_listings" translatable="false">UserFavoritesListingsActivity</string>
+    <string name="title_activity_event_comments" translatable="false">EventCommentsActivity</string>
+    <string name="title_activity_user_profile" translatable="false">UserProfileActivity</string>
+    <string name="title_activity_listing_checkin" translatable="false">Checkins</string>
+    <string name="title_activity_merchant" translatable="false">Merchant profile</string>
+    <string name="title_activity_splash" translatable="false">Splash</string>
+    <string name="title_activity_description_display" translatable="false">DescriptionDisplayActivity</string>
+    <string name="title_activity_event_interested" translatable="false">EventInterestedActivity</string>
+    <string name="title_activity_event_view" translatable="false">EventViewActivity</string>
+    <string name="title_activity_events_index" translatable="false">EventsIndexActivity</string>
+</resources>

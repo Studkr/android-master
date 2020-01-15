@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="app_url" type="string">http://utilities.gigapromoters.com/cv</item>
+    <item name="icon_more" type="string">category_more</item>
+    <item name="listing_holder_id" type="id"/>
+    <item name="can_set_dummy_location" type="bool">false</item>
+    <item name="deal_enabled" type="bool">true</item>
+
+    <string name="facebook_app_id">781908755255714</string>
+    <!-- Change manfiset file also -->
+    <string name="fb_provider">com.facebook.app.FacebookContentProvider781908755255714</string>
+</resources>

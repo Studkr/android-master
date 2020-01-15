@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/back_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:scaleType="center"
+        android:src="@drawable/nav_back_black" />
+
+    <FrameLayout
+        android:id="@+id/action_redeem"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/label_redeem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/taupe_black"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:text="@string/redeem"
+            android:textColor="@color/text_color_white"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/label_already_redeemed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:text="@string/code_already_redeemed"
+            android:textColor="@color/red_orange"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/action_redeem"
+        android:layout_below="@id/back_view"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.INT.apps.GpsspecialDevelopment.views.RoundedImageView
+            android:id="@+id/user_avatar"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:src="@drawable/placeholder100"
+            app:riv_corner_radius="5dp" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/taupe_black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Henry Day" />
+
+        <TextView
+            android:id="@+id/purchased_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/dark_grey"
+            android:textSize="13sp"
+            tools:text="Purchased 16 Jan 2017" />
+
+        <LinearLayout
+            android:id="@+id/deal_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/divider_color" />
+
+            <include
+                android:id="@+id/deal"
+                layout="@layout/listing_deal_pagination_row" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider_color" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+</RelativeLayout>

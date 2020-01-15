@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/listing_gallery_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.10"
+            android:background="#cccccc"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/add_photo_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.30"
+            android:layout_gravity="center_vertical"
+            android:drawableEnd="@drawable/ic_image_camera_alt_light"
+            android:drawableRight="@drawable/ic_image_camera_alt_light"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/add_photo"
+            tools:text="Veryrvera;lsdfjalsdjfaljsdfalskjdf;alsdfjalksjdfal;dskfjas"/>
+
+        <Button
+            android:id="@+id/open_gallery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.35"
+            android:layout_gravity="center_vertical"
+            android:drawableEnd="@drawable/ic_action_next_item_light"
+            android:drawableRight="@drawable/ic_action_next_item_light"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/view_all_photo" />
+
+    </LinearLayout>
+</LinearLayout>

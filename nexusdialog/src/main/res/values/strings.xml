@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_error_title">Invalid Input</string>
+    <string name="required_field_error_msg">%s is a required field</string>
+    <string name="valid_email">Please enter valid E-mail address</string>
+    <string name="ok">OK</string>
+</resources>

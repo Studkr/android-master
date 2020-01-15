@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_error_title">Saisie invalide</string>
+    <string name="required_field_error_msg">%s est un champ obligatoire</string>
+    <string name="valid_email">Veuillez entrer une adresse e-mail valide</string>
+    <string name="ok">O.K.</string>
+</resources>

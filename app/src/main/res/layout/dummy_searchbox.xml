@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dummy_search_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/dummy_searchbox"
+        android:drawableLeft="@drawable/ic_action_action_search"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_action_action_search"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:hint="@string/search_label"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColor="@color/taupe_black"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:textAlignment="viewStart" />
+
+    <ImageButton
+        android:id="@+id/trigger_filter"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cccccc"
+        android:clickable="true"
+        android:src="@drawable/ic_image_tune" />
+</FrameLayout>

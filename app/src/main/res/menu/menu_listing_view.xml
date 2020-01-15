@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.INT.apps.GpsspecialDevelopment.activities.ListingViewActivity">
+    <item
+            android:id="@+id/action_share_2"
+            android:title="@string/share"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_action_social_share_light"
+        />
+    <item android:id="@+id/action_add_review"
+        android:title="@string/write_review"
+        android:orderInCategory="101"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/action_add_photo"
+        android:title="@string/add_photo"
+        android:orderInCategory="102"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/share"
+        android:title="@string/share"
+        android:orderInCategory="103"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/bookmark_listing_button"
+          android:title="@string/bookmark"
+          android:orderInCategory="104"
+          app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/make_phone_call"
+          android:title="@string/phone_call"
+          android:orderInCategory="105"
+          app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/open_in_browser"
+          android:title="@string/open_in_browser"
+          android:orderInCategory="106"
+          app:showAsAction="collapseActionView"/>
+</menu>

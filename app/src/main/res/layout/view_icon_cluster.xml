@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_cluster"
+    android:gravity="center"
+    tools:layout_height="33dp"
+    tools:layout_width="33dp">
+
+    <TextView
+        android:id="@+id/cluster_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/text_color_white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="3" />
+
+</FrameLayout>

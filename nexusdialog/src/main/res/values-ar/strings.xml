@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_error_title">مُدخلات غير صحيحة</string>
+    <string name="required_field_error_msg"> %s حقل مطلوب</string>
+    <string name="valid_email">يُرجى إدخال عنوان بريد إلكتروني صالح</string>
+    <string name="ok">حسنًا</string>
+</resources>

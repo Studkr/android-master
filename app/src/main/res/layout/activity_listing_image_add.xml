@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        tools:context="com.INT.apps.GpsspecialDevelopment.activities.ListingImageAddActivity">
+
+        <include layout="@layout/top_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add_from_camera"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.3"
+                android:drawableLeft="@drawable/ic_image_camera_alt_light"
+                android:drawableStart="@drawable/ic_image_camera_alt_light"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/take_a_picture" />
+
+            <Button
+                android:id="@+id/add_from_gallery"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.3"
+                android:drawableLeft="@drawable/ic_action_file_folder"
+                android:drawableStart="@drawable/ic_action_file_folder"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/add_from_gallery" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/image_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="auto_fit" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/upload_photo"
+        style="@style/AppButtonSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/theme_color_secondary"
+        android:text="@string/upload_photo"
+        android:visibility="gone" />
+</RelativeLayout>

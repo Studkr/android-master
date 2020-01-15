@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_error_title">入力内容が無効</string>
+    <string name="required_field_error_msg">%s は必須項目です</string>
+    <string name="valid_email">有効なメールアドレスを入力して下さい</string>
+    <string name="ok">OK</string>
+</resources>

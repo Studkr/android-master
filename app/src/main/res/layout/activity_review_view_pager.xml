@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.INT.apps.GpsspecialDevelopment.activities.ReviewViewPagerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/top_bar" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/review_list_pager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/prev_pager"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:background="#99C9C9C9"
+        android:cropToPadding="true"
+        android:paddingBottom="30dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="30dp"
+        android:src="@drawable/ic_hardware_keyboard_arrow_left" />
+
+    <ImageButton
+        android:id="@+id/next_pager"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:background="#99C9C9C9"
+        android:cropToPadding="true"
+        android:paddingBottom="30dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="30dp"
+        android:src="@drawable/ic_hardware_keyboard_arrow_right" />
+</FrameLayout>

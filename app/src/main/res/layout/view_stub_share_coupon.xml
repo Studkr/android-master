@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d8d8d8"
+            android:paddingBottom="30dp"
+            android:paddingEnd="28dp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:paddingStart="28dp"
+            android:paddingTop="40dp">
+
+            <TextView
+                android:id="@+id/final_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/taupe_black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:text="$15" />
+
+            <TextView
+                android:id="@+id/regular_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/final_price"
+                android:textColor="@color/red_orange"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                tools:text="$35" />
+
+            <TextView
+                android:id="@+id/deal_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/final_price"
+                android:layout_toStartOf="@id/final_price"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="2"
+                android:textAlignment="viewStart"
+                android:textColor="@color/taupe_black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:text="Dinner for Two at Noe Restaurant and Bar" />
+
+            <TextView
+                android:id="@+id/listing_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deal_title"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_toLeftOf="@id/final_price"
+                android:layout_toStartOf="@id/final_price"
+                android:alpha="0.6"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="2"
+                android:textAlignment="viewStart"
+                android:textColor="@color/taupe_black"
+                android:textSize="17sp"
+                tools:text="Noe Bar" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/qr_code"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/coupon_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:textAllCaps="true"
+            android:textColor="@color/taupe_black"
+            android:textSize="18sp"
+            tools:text="7h47 h30a sb42" />
+
+    </LinearLayout>
+</FrameLayout>

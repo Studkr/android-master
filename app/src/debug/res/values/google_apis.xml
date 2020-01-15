@@ -1,0 +1,7 @@
+<resources>
+    <string name="google_maps_key" translatable="false"
+            templateMergeStrategy="preserve">AIzaSyBazTRSSi6LVWW61CHyCOg6mf1jo7XMHNo</string>
+
+    <string name="google_app_id" translatable="false">1:830488559317:android:69924a9687a5628e</string>
+    <string name="gcm_defaultSenderId">830488559317</string>
+</resources>

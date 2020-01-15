@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <com.INT.apps.GpsspecialDevelopment.views.RoundedImageView
+        android:id="@+id/listing_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="center"
+        android:src="@drawable/placeholder100"
+        app:riv_corner_radius="5dp" />
+
+    <TextView
+        android:id="@+id/listing_title"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/listing_image"
+        android:layout_toRightOf="@id/listing_image"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:textColor="#4D4D4D"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Listing title" />
+
+    <TextView
+        android:id="@+id/checkin_date"
+        style="@style/light_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/listing_title"
+        android:layout_toRightOf="@id/listing_title"
+        android:gravity="end"
+        android:textAlignment="viewEnd"
+        tools:text="date" />
+
+    <ImageView
+        android:id="@+id/ratings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listing_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/listing_image"
+        android:layout_toRightOf="@id/listing_image" />
+
+    <TextView
+        android:id="@+id/review_count"
+        style="@style/small_light_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listing_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@id/ratings"
+        android:layout_toRightOf="@id/ratings"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratings"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/listing_image"
+        android:layout_toRightOf="@id/listing_image"
+        android:orientation="horizontal">
+        <!--checkinn-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/check_in_icon_small"
+            android:visibility="gone" />
+        <!--checkinn-->
+        <TextView
+            android:id="@+id/checkin_count"
+            style="@style/small_light_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>

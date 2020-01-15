@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/listing_view_margins"
+    android:layout_marginRight="@dimen/listing_view_margins"
+    android:background="@drawable/action_button_set_layout_bg"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/get_directions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/actions_button_set"
+        android:drawableEnd="@drawable/ic_action_next_item"
+        android:drawableLeft="@drawable/ic_maps_directions"
+        android:drawableRight="@drawable/ic_action_next_item"
+        android:drawableStart="@drawable/ic_maps_directions"
+        android:gravity="start|center"
+        android:paddingEnd="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/get_directions"
+        android:textAlignment="viewStart"
+        android:textColor="#333333" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#A6A6A6" />
+
+    <Button
+        android:id="@+id/make_phone_call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/actions_button_set"
+        android:drawableEnd="@drawable/ic_action_next_item"
+        android:drawableLeft="@drawable/ic_communication_call"
+        android:drawableRight="@drawable/ic_action_next_item"
+        android:drawableStart="@drawable/ic_communication_call"
+        android:gravity="start|center"
+        android:paddingEnd="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/phone_call"
+        android:textAlignment="viewStart"
+        android:textColor="#333333" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#A6A6A6" />
+
+    <Button
+        android:id="@+id/more_information"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/actions_button_set"
+        android:drawableEnd="@drawable/ic_action_next_item"
+        android:drawableLeft="@drawable/ic_action_info_outline"
+        android:drawableRight="@drawable/ic_action_next_item"
+        android:drawableStart="@drawable/ic_action_info_outline"
+        android:gravity="start|center"
+        android:paddingEnd="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/more_information"
+        android:textAlignment="viewStart"
+        android:textColor="#333333" />
+</LinearLayout>

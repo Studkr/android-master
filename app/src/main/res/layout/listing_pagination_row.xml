@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="100dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <com.INT.apps.GpsspecialDevelopment.views.RoundedImageView
+        android:id="@+id/listing_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:scaleType="center"
+        android:src="@drawable/placeholder100"
+        app:riv_corner_radius="5dp" />
+
+    <RelativeLayout
+
+        android:id="@+id/listing_content_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/listing_image"
+        android:layout_toRightOf="@id/listing_image"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/listing_title"
+            style="@style/row_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="false"
+            tools:text="Title of the deal" />
+
+        <TextView
+            android:id="@+id/is_featured"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/featured"
+            android:textColor="#FFB900"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ratings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listing_title"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/stars_extrasmall_0" />
+
+        <TextView
+            android:id="@+id/review_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listing_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/ratings"
+            android:layout_toRightOf="@id/ratings"
+            android:gravity="top|center"
+            android:textSize="12sp"
+            tools:text="0 review" />
+
+        <TextView
+            android:id="@+id/listing_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratings"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            tools:text="Gagarina Str, Kyiv 08928" />
+
+        <TextView
+            android:id="@+id/category_list"
+            style="@style/category_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listing_address"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            tools:text="Spa $ Salon" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/listing_address"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="5.0mi" />
+
+        <RelativeLayout
+            android:id="@+id/deal_icon_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/category_list">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/deal_annotation_image"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/deal_annotation_image"
+                android:text="Deal"
+                android:textColor="#7DCA51"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

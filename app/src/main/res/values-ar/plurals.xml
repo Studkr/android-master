@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <plurals name="review_count">
+    <item quantity="zero">%s استعراضات</item>
+    <item quantity="one">1 استعراض</item>
+    <item quantity="two">%s استعراض</item>
+    <item quantity="few">%s استعراضات</item>
+    <item quantity="many">%s استعراضات</item>
+    <item quantity="other">%s استعراضات</item>
+  </plurals>
+  <plurals name="available_codes_format">
+    <item quantity="zero">x%s أكواد متوفرة</item>
+    <item quantity="one">x%s كود متوفر</item>
+    <item quantity="two">x%s كود متوفر</item>
+    <item quantity="few">x%s أكواد متوفرة</item>
+    <item quantity="many">x%s أكواد متوفرة</item>
+    <item quantity="other">x%s أكواد متوفرة</item>
+  </plurals>
+  <plurals name="used_codes_format">
+    <item quantity="zero">x%s أكواد مُستخدمة</item>
+    <item quantity="one">x%s كود مُستخدم</item>
+    <item quantity="two">x%s كود مُستخدم</item>
+    <item quantity="few">x%s أكواد مُستخدمة</item>
+    <item quantity="many">x%s أكواد مُستخدمة</item>
+    <item quantity="other">x%s أكواد مُستخدمة</item>
+  </plurals>
+</resources>

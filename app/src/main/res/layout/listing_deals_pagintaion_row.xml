@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <include
+        android:id="@+id/deal_1"
+        layout="@layout/listing_deal_pagination_row"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <include
+        android:id="@+id/deal_2"
+        layout="@layout/listing_deal_pagination_row"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <include
+        android:id="@+id/deal_3"
+        layout="@layout/listing_deal_pagination_row"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/show_more_deals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_hardware_keyboard_arrow_right"
+        android:drawableRight="@drawable/ic_hardware_keyboard_arrow_right"
+        android:gravity="center_vertical|start"
+        android:textAlignment="viewStart"
+        android:paddingBottom="2dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:paddingTop="2dp"
+        android:textColor="@color/theme_color"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="15 More by Listing Name"
+        tools:visibility="visible" />
+
+</LinearLayout>

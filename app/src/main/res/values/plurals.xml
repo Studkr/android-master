@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="review_count">
+        <item quantity="zero">No review</item>
+        <item quantity="one">1 review</item>
+        <item quantity="other">%s reviews</item>
+    </plurals>
+    <plurals name="checkin_count">
+        <item quantity="zero"></item>
+        <item quantity="one">1 checkin</item>
+        <item quantity="other">%d checkins</item>
+    </plurals>
+    <plurals name="available_codes_format">
+        <item quantity="zero">No available codes</item>
+        <item quantity="one">x%s available code</item>
+        <item quantity="other">x%s available codes</item>
+    </plurals>
+    <plurals name="used_codes_format">
+        <item quantity="zero">No used codes</item>
+        <item quantity="one">x%s used code</item>
+        <item quantity="other">x%s used codes</item>
+    </plurals>
+</resources>

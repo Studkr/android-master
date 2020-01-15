@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RatingBar" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_full</item>
+        <item name="android:indeterminateDrawable">@drawable/rating_full</item>
+    </style>
+</resources>

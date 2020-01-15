@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">GPS Special</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_started">Get Started</string>
+    <string name="login_question">Already have a account?</string>
+    <string name="login_button">Login</string>
+    <string name="top_reviews">Reviews</string>
+    <string name="all_categories">All Categories</string>
+    <string name="take_a_picture">Take a picture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location_disabled_message">Whoops! Seems like your location service is not enabled. Please enable location services.</string>
+    <string name="location_services_message">Location Services</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="button_check_location">Retry</string>
+    <string name="check_location_label">Your location doesn\'t seems to be accessible</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading</string>
+    <string name="hot_listings_label">Hot Listings nearby</string>
+    <string name="hot_listings">Hot Listings</string>
+    <string name="loading_problem_label">Problem in loading</string>
+    <string name="button_retry_connection">Retry</string>
+    <string name="load_prev_listing_page">Previous %s</string>
+    <string name="load_next_listing_page">Next %s</string>
+    <string name="show_map">Show Map</string>
+    <string name="view_on_the_map">View on the map</string>
+    <string name="search_label">Search for business or place</string>
+    <string name="quantity">Quantity</string>
+    <string name="action_minus">-</string>
+    <string name="action_plus">+</string>
+    <!--@saqib-->
+    <string name="search_business">Search coupons/specials</string>
+    <string name="write_review">Write a review</string>
+    <string name="add_photo">Add photo</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="bookmarked">Bookmarked</string>
+    <string name="view_all_photo">View all photos</string>
+    <string name="business_photos">Business photos</string>
+    <string name="simple_date_format">MM/d/yyyy</string>
+    <string name="view_reviews">See All Reviews</string>
+    <string name="add_review">Add Review</string>
+    <string name="email">E-mail Address</string>
+    <!--@saqib-->
+    <string name="zip_code">Zip Code</string>
+    <!--@saqib-->
+    <string name="mobile_no">Mobile Number</string>
+    <string name="Password">Password</string>
+    <string name="reload">Reload</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password_question">Forgot password?</string>
+    <string name="login_in_message">Login…</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_to_continue">Please login or register continue</string>
+    <string name="ok">OK</string>
+    <string name="logged_in_message">Logged in successfully</string>
+    <string name="errors">Errors</string>
+    <string name="sending_request">Sending Request..</string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="my_location">My Location</string>
+    <string name="please_try_again">Network Error! Please try again.</string>
+    <string name="login_after_register">Your registration was successful. Please verify your E-mail and login to continue.</string>
+    <string name="filters">Filters</string>
+    <string name="everything">Everything</string>
+    <string name="everywhere">Everywhere</string>
+    <string name="photos_uploaded_success">%s photo were uploaded successfully</string>
+    <string name="no_photo_uploaded">No photo was uploaded</string>
+    <string name="please_select_file_or_upload">Please select file from galery or take a picture</string>
+    <string name="file_uploading_problem">Problem in uploading. Please try again</string>
+    <string name="share">Share</string>
+    <string name="get_directions">Get directions</string>
+    <string name="phone_call">Call</string>
+    <string name="phone">Phone</string>
+    <string name="more_information">More information</string>
+    <string name="deals_more_by" formatted="false">%s More by %s</string>
+    <string name="featured">Featured</string>
+    <string name="discount">Discount</string>
+    <string name="bought">Bought</string>
+    <string name="highlights">Highlights</string>
+    <string name="limited_availability">Limited availability</string>
+    <string name="terms">Terms</string>
+    <string name="fine_print">Fine print</string>
+    <string name="validity">Validity</string>
+    <string name="for_example">For example:</string>
+    <string name="validity_phone">Mobile phone is not valid. Please input right phone and try register again.</string>
+    <string name="buy_deal">Buy Deal</string>
+    <string name="deal_purchased">Deal purchased</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="deal_deals_left">%s days left</string>
+    <string name="login_or_signup">Login or Signup</string>
+    <string name="reviews_count">%s Reviews</string>
+    <string name="review_count_label">Reviews Added</string>
+    <string name="photos_count">%s Photos</string>
+    <string name="events">Events</string>
+    <string name="are_you_interested">Are you interested?</string>
+    <string name="i_m_in">I\'m In!</string>
+    <string name="when">When</string>
+    <string name="event_description">Event Description</string>
+    <string name="description">Description</string>
+    <string name="sounds_cool">Sounds Cool</string>
+    <string name="official_site">Official Website</string>
+    <string name="ticket_site">Ticket Website</string>
+    <string name="add_to_calendar">Add To Calendar</string>
+    <string name="discuss_this_event">Discuss this Event</string>
+    <string name="interested_text">%s people are interested</string>
+    <string name="event_interested_text">Interested Users</string>
+    <string name="going_text">Going (%s)</string>
+    <string name="revoke_rsvp">Revoke Rsvp</string>
+    <!--@saqib-->
+    <string name="nearby">Home</string>
+    <string name="your_event_response">Your Event Response:</string>
+    <string name="sounds_cool_title">Sounds Cool (%s)</string>
+    <string name="find_it_useful_string">Do you find this review useful?</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation">Logout confirmation</string>
+    <string name="logout_confirmation_msg">Are you sure you want to logout?</string>
+    <string name="cost">Cost</string>
+    <string name="comments">Comments</string>
+    <string name="checkin">Checkin</string>
+    <string name="checkedin">CheckedIn</string>
+    <string name="checkin_in_business">Checkin in %s</string>
+    <string name="checkin_hintext">Add a comment (e.g with friends, enjoying lunch)</string>
+    <string name="add_comment">Add your comment</string>
+    <string name="my_profile">My Profile</string>
+    <string name="user_profile">%s\'s Profile</string>
+    <string name="please_add_comment">Please add your comment</string>
+    <string name="bookmarked_business">Bookmarks</string>
+    <string name="logged_out_successfully">Logged out successfully</string>
+    <string name="auto_logout">User was automatically logged out</string>
+    <string name="no_comment_added">No comment added yet!</string>
+    <string name="checked_in_successfully">Checked in successfully</string>
+    <string name="registration_date">Member Since</string>
+    <string name="checkin_count">Checkins</string>
+    <string name="payments">Payments</string>
+    <string name="set_location">Set Location</string>
+    <string name="location_not_accessible">Location not accessible</string>
+    <string name="users_bookmarks">%s\s Bookmarks</string>
+    <string name="deals_purchased">Deals purchased</string>
+    <string name="last_login_date">Last Login Date </string>
+    <string name="more_profile_information">More profile information</string>
+    <string name="entity_reviews">%s\'s reviews</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="view_business">View Business</string>
+    <string name="posted_in_business">Posted in %s</string>
+    <string name="reviewed_by_user">Reviewed by %s</string>
+    <!--@saqib-->
+    <string name="my_checkins">My GpsSpecial</string>
+    <string name="user_checkins">%s Checkins</string>
+    <string name="deal_purchased_date">Purchased %s</string>
+    <string name="close_application">Close Application</string>
+    <string name="are_you_sure_exit_application">Are you sure you want to exit the application?</string>
+    <string name="available_codes">%s codes available</string>
+    <string name="Yes">Yes</string>
+    <string name="Cancel">Cancel</string>
+    <string name="share_your_checkin">Share your checkin</string>
+    <string name="user_checked_in_business">checked into %1$s</string>
+    <string name="no_listing_found">No Listing found</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax_format">Tax, %s%%</string>
+    <string name="fee_format">Convenience Fee, %s%%</string>
+    <string name="tax_formatted_title">Tax, %s%%</string>
+    <string name="total">Total</string>
+    <string name="proceed_to_pay">Proceed to pay</string>
+
+    <string name="init_stripe">Initialize Stripe…</string>
+    <string name="pay_progress">Payment in progress. Please wait…</string>
+    <string name="error_register_stripe">Error with registration user in Stripe</string>
+    <string name="success_pay">Payment was successful!</string>
+
+    <string name="active">Active</string>
+    <string name="used">Used</string>
+    <string name="unused">Unused</string>
+    <string name="no_purchases">Purchases not found</string>
+    <string name="no_listings">Listings not found</string>
+    <string name="deals_not_found">Deals not found</string>
+    <string name="view_coupon_code">View coupon codes</string>
+    <string name="available_format">%s available</string>
+    <string name="used_format">%s used</string>
+    <string name="unused_format">%s unused</string>
+    <string name="deal_codes_unavailable">No code available</string>
+    <string name="purchases_unavailable">No available purchases for showing on the map</string>
+
+    <string name="merchant_account">Merchant Account</string>
+    <string name="merchant_profile">Merchant profile</string>
+
+    <string name="purchases">Purchases</string>
+    <string name="format_purchases" formatted="false">%s Purchases</string>
+    <string name="purchased_at">Purchased %s</string>
+    <string name="deals">Deals</string>
+    <string name="listings">Listings</string>
+    <string name="hint_coupon_code">Type coupon code</string>
+    <string name="coupon_code_not_found">Unfortunately we cannot find this code</string>
+    <string name="search_coupon_progress">Searching coupon. Wait please…</string>
+
+    <string name="redeem_confirmation">Redeem confirmation</string>
+    <string name="redeem_redeemed">Whoops! Seems this code already redeemed.</string>
+    <string name="redeem_confirmation_msg">Are you sure you want to redeem this code?</string>
+    <string name="redeem">Redeem</string>
+    <string name="redeem_progress">Redeem in progress. Please wait…</string>
+    <string name="redeem_success">Success. You code is a redeemed.</string>
+    <string name="code_already_redeemed">Code is already redeemed.</string>
+
+    <string name="connectivity_failure">Connectivity Failure!</string>
+    <string name="check_your_connection">Please check your internet connection!</string>
+    <string name="hint_number">123456789</string>
+    <string name="more_deals">More deals</string>
+    <string name="photos">Photos</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="close">Close</string>
+    <string name="share_on_fb">Share on FB</string>
+    <string name="share_on_twitter">Share on Twitter</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="add_from_gallery">Add from gallery</string>
+    <string name="upload_photo">Upload photo</string>
+    <string name="don_t_have_account_yet">Don\'t have account yet?</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="sort_options_name">Alphabetical order</string>
+    <string name="sort_options_distance">Distance</string>
+    <string name="sort_options_review">Most Reviewed</string>
+    <string name="sort_options_rating">Highest Rated</string>
+
+    <string name="distance_options_5">5 miles</string>
+    <string name="distance_options_10">10 miles</string>
+    <string name="distance_options_15">15 miles</string>
+
+    <string name="filter_label_sort_by">Sort By</string>
+    <string name="filter_label_search_radius">Search Radius</string>
+
+    <string name="error_server_unknown">Server error</string>
+    <string name="listing_image_activity_title">Add pictures</string>
+
+    <string name="profile_bonus_points_label">Bonus points</string>
+    <string name="profile_bonus_points_amount_unknown" translatable="false">-</string>
+    <string name="bonus_points_activity_title">Bonus points</string>
+    <string name="bonus_points_total_bonus_points_label">Total bonus points</string>
+    <string name="bonus_points_exchange">$1 = %s Bonus points</string>
+    <string name="bonus_points_format" translatable="false">%1$s (%2$s)</string>
+    <string name="buy_deal_pay_with_bonus_button_title">Pay with bonus points</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="dialog_bonus_pay_title">Pay with bonus points</string>
+    <string name="dialog_bonus_pay_available_points">Available: $%1$s (%2$s)</string>
+    <string name="pay_deal_available_bonus_points">Available:\n $%1$s (%2$s)</string>
+    <string name="pay_deal_bonus_points_title">Bonus Points</string>
+    <string name="pay_deal_bonus_points_amount" translatable="false">$%1$s</string>
+    <string name="error_merchant_was_blocked">Merchant was blocked</string>
+
+    <string name="title_activity_purchases">Purchases</string>
+
+</resources>

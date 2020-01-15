@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="colorAccent">@color/theme_color</item>
+        <item name="colorPrimaryDark">@color/theme_color_dark</item>
+
+        <item name="android:listViewStyle">@style/appListViewStyle</item>
+    </style>
+
+    <style name="AppQRScanTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+
+    <style name="AppQRScanTheme.ProgressBarStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/theme_color</item>
+    </style>
+
+    <style name="AppTheme.DialogFullScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="appListViewStyle" parent="android:Widget.Holo.Light.ListView">
+        <item name="android:listSelector">@drawable/listview_selected</item>
+    </style>
+
+
+    <style name="AppButton" parent="android:Widget.Holo.Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/theme_button</item>
+    </style>
+
+    <style name="AppButtonSecondary" parent="AppButton">
+        <item name="android:background">@drawable/theme_button_secondary</item>
+    </style>
+
+
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_navigation_more_vert_light</item>
+    </style>
+
+    <style name="AppToolbarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorPrimary">#ffffff</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="DropDownListViewStyle" parent="@android:style/Widget.Holo">
+        <item name="android:divider">#cccccc</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="light_text">
+        <item name="android:textColor">#6E6E6E</item>
+    </style>
+
+    <style name="toolbar_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="row_heading">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="listing_title_heading" parent="">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="rating_medium_text">
+        <item name="android:textColor">#6E6E6E</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="activity_background">
+        <item name="android:background">#F0F0F0</item>
+    </style>
+    F0F0F0
+
+    <style name="list_background">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="category_row_as_layout">
+
+    </style>
+
+    <style name="hot_listing_layout">
+
+    </style>
+
+    <style name="main_toolbar">
+        <item name="android:background">#2ECC40</item>
+    </style>
+
+    <style name="small_light_text">
+        <item name="android:textColor">#6E6E6E</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="category_color">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#48B1EE</item>
+    </style>
+
+    <style name="toolbar_text">
+        <item name="android:textSize">16dp</item>
+        <item name="android:color">#333333</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
